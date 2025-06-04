@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Click al Conocimiento - Antropología Social</title>
+  <style>
+    :root {
+      --color-fondo: #fefaf6;
+      --color-azul: #586f27;
+      --color-rojo: #d94f45;
+      --color-amarillo: #f2c94c;
+      --color-cafe: #6b4c3b;
+      --color-blanco: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: Georgia, serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, var(--color-blanco), var(--color-fondo));
+      color: var(--color-cafe);
+    }
+
+    header {
+      background-color: var(--color-azul);
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      font-weight: normal;
+      color: var(--color-amarillo);
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--color-blanco);
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--color-rojo);
+    }
+
+    .hero-image {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      display: block;
+    }
+
+    section {
+      padding: 40px 20px 30px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 1s ease;
+    }
+
+    section h2 {
+      font-size: 2em;
+      font-weight: normal;
+      color: var(--color-azul);
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 1.15em;
+      line-height: 1.7;
+      color: var(--color-cafe);
+      text-align: Justify;
+      margin-bottom: 10px;
+    }
+    
+
+    section h3 {
+      font-size: 1.15em;
+      line-height: 1.7;
+      color: var(--color-negro);
+      text-align: Justify;
+      margin-bottom: 15px;
+    }
+    
+
+    .gallery img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 30px auto 30px; /* Aumentamos el margen inferior */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+    .gallery h3 {
+      text-align: left;
+      font-size: 1.2em;
+      font-family: Georgia, serif;
+      color: var(--color-cafe);
+      font-size: 1em;
+      margin-top: 5px;
+    }
+
+    footer {
+      background-color: var(--color-cafe);
+      color: var(--color-amarillo);
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+
+    @media (max-width: 500px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1><strong>Click al Conocimiento, Una mirada de la <i>Antropología.</i></strong></h1>
+    <nav>
+      <a href="#acerca">Acerca de Nosotros</a>
+      <a href="#vision">Visión</a>
+      <a href="#mision">Misión</a>
+      <a href="#Recursos Academicos">Recursos Académicos</a>
+      <a href="#Herramientas">Herramientas Etnográficas clave</a>
+      <a href="#contactos">Contactos</a>
+      <a href="#area">Áreas de Oportunidad</a>
+    </nav>
+  </header>
+
+  <img src="image.png" alt="Imagen representativa de Antropología" class="hero-image">
+
+  <section id="acerca">
+    <h2><strong>Acerca de Nosotros</strong></h2>
+    <p>Click al Conocimiento es una plataforma dedicada al estudio y difusión de la Antropología Social. 
+      Como organización sin fines de lucro, promovemos el análisis crítico, la diversidad cultural y el entendimiento humano desde una mirada gráfica y educativa.</p>
+  </section>
+
+  <section id="vision">
+    <h2><strong>Visión</strong></h2>
+    <p>Ser una plataforma reconocida por su enfoque cercano, inclusivo y creativo en la enseñanza y exploración de la Antropología Social, fomentando el pensamiento crítico, la sensibilidad social y el interés por la diversidad cultural.</p>
+  </section>
+
+  <section id="mision">
+    <h2><strong>Misión</strong></h2>
+    <p>Brindar un espacio accesible y dinámico para la difusión de conocimientos en Antropología Social, facilitando la comprensión de las realidades culturales, sociales y humanas a través de contenidos claros, atractivos y útiles para la formación académica.
+</p>
+  </section>
+
+  <section id="recursos" class="gallery">
+    <h2><strong>Recursos Fotográficos</strong></h2>
+    <p>Los recursos fotográficos presentados constituyen un valioso aporte para el estudio de la antropología social en las comunidades de <strong>León, Sutiaba y Cuajachillo</strong> Estas imágenes documentan aspectos fundamentales de la vida cotidiana, las tradiciones culturales, las relaciones sociales y las expresiones identitarias propias de estos territorios. A través de una mirada etnográfica, las fotografías permiten captar la riqueza cultural y social de sus habitantes, evidenciando prácticas ancestrales y dinámicas contemporáneas que conforman el entramado social de estas localidades. Así, estos recursos no solo funcionan como testimonio visual, sino también como herramienta de análisis para comprender mejor las complejidades sociales y culturales que caracterizan a estas comunidades nicaragüenses.</p>
+    
+    <img src="cuajochio 1.jpg" alt="Escuela en Cuajachillo">
+    <h3>Colegio Fray de Pamplona, Cuajachillo, Managua. <strong><em>Fotografía por Ricardo Chavarría</em></strong></h3>
+
+    <img src="cuajillo 2.jpg" alt="Escuela en Cuajachillo">
+    <h3>Colegio Fray de Pamplona, Cuajachillo, Managua. <em>Fotografía por Ricardo Chavarría</em></h3>
+
+    <img src="cojachio 3.jpg" alt="Escuela en Cuajachillo">
+    <h3>Colegio Fray de Pamplona, Cuajachillo, Managua. <em>Fotografía por Ricardo Chavarría</em></h3>
+
+    <img src="Leon 1.jpg" alt="Comunidad Sutiaba, León">
+    <h3>Arte Crisan, Sutiaba, León. <em>Fotografía por Michael Chávez</em></h3>
+
+    <img src="leon 2.jpg" alt="Comunidad Sutiaba, León">
+    <h3>Arte Crisan, Sutiaba, León. <em>Fotografía por Ithany Ortiz</em></h3>
+
+    <img src="leon 3.jpg" alt="Comunidad Sutiaba, León">
+    <h3>Arte Crisan, Sutiaba, León. <em>Fotografía por Michael Chávez</em></h3>
+
+   <h2 style="text-align: left; margin-top: 30px;"><strong>Mapa Interactivo</strong></h2>
+   <p>El mapa interactivo desarrollado tiene como objetivo principal mostrar de manera clara y dinámica las áreas de Nicaragua donde se han realizado trabajos antropológicos.Este recurso no solo permite identificar las zonas de <strong>intervención antropológica</strong>, sino que también ofrece una plataforma accesible para la difusión del conocimiento generado en cada lugar, promoviendo el diálogo entre investigadores, comunidades y público general interesado en la antropología social nicaragüense.</p>
+<div style="text-align: left; margin-bottom: 30px;">
+  <a href="https://maphub.net/Ithany/map-2" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <img 
+      src="Mapa minimalista de .png"
+      alt="Haz clic para ver el Mapa Antropológico Interactivo" 
+      style="width: 180%; max-width: 350px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); cursor: pointer; transition: transform 0.3s;"
+      onmouseover="this.style.transform='scale(1.02)'" 
+      onmouseout="this.style.transform='scale(1)'"
+    />
+  </a>
+</div>
+</section>
+<section id="Recursos Academicos" class="gallery"
+         style="text-align: justify; margin-top: 30px;">
+         <h2><strong>Recursos Académicos</strong></h2>
+         <p>La Revista Raíces, Revista de Ciencias Sociales y Políticas es una publicación académica de la Universidad Nacional Autónoma de Nicaragua, Managua <strong>(<em>UNAN-Managua)</em></strong>, dedicada a la difusión del conocimiento científico en el ámbito de las ciencias sociales y políticas. Su propósito es fomentar el pensamiento crítico, el análisis riguroso y el diálogo académico sobre las realidades sociales, económicas, culturales y políticas que marcan el devenir de nuestras sociedades</p>
+  <a href="https://revistas.unan.edu.ni/index.php/Raices/index" target="_blank" rel="noopener noreferrer">
+    <img src="ChatGPT Image 29 de mai. de 2025, 00_33_41.png" alt="Revista Raíces"
+          alt="Haz clic para ver la Revista Raíces"
+      style="width: 90%; max-width: 500px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); cursor: pointer; transition: transform 0.3s;"
+         onmouseover="this.style.transform='scale(1.03)'" 
+         onmouseout="this.style.transform='scale(1)'">
+         
+  </a>
+</section>
+
+<section id="Herramientas">
+       <h2 style="text-align: justify; margin-top: 40px;"><strong>Herramientas Etnográficas Clave</strong></h2>
+        <img src="Presentación Centro de Estética Orgánico Verde.png" alt="unsdi" style="width: 100%; max-width: 150px border-radius 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); cursor: pointer; transition: transform 0.3s;"
+      onmouseover="this.style.transform='scale(1.02)'" 
+      onmouseout="this.style.transform='scale(1)'"> 
+      </section>
+
+
+
+  <section id="area" class="gallery">
+    <h2><strong>Áreas de Oportunidad</strong></h2>
+    <p>Las áreas de oportunidad laboral para la antropología social en Nicaragua abarcan diversos espacios donde el conocimiento cultural y social es esencial. Instituciones estatales, organizaciones no gubernamentales, universidades y comunidades locales representan escenarios clave para aplicar enfoques antropológicos en el diseño de políticas, proyectos sociales y procesos educativos. Estos espacios permiten al antropólogo contribuir activamente al desarrollo comunitario, la preservación cultural y la investigación aplicada, fortaleciendo habilidades como el análisis crítico, la mediación intercultural y la acción participativa en contextos diversos.</p>    
+    <img src="Area.jpg" alt="Giras de campo">
+    <h3>Eventos Especiales</h3>
+
+    <img src="Eventos 2.jpg" alt="Voluntariado">
+    <h3>Voluntariados Especiales</h3>
+  </section>
+
+  <section id="contactos">
+    <h2><strong>Contactos</strong></h2>
+    <p>Contáctanos al correo siguiente: clicckalconocimiento@gmail.com</p>
+  </section>
+
+  <section id="cita" style="padding: 40px 20px; max-width: 900px; margin: auto;">
+  <h2 style="color: var(--color-azul); font-size: 1.5em;"><strong>Cita Bibliográfica</strong></h2>
+  <p style="font-size: 1.1em; line-height: 1.6; text-align: justify;">
+    Chávez, M., Ortiz, I., & Chavarría, R. (2025). <i>Cartografías culturales de Nicaragua: una mirada desde la Antropología Social</i>. Click al Conocimiento. https://clickalconocimiento.org/revistas/cartografias2025
+    ABC Color. (2023, 1 de septiembre). Antropología y etnografía: herramientas y vinculación con otras ciencias humanas. https://www.abc.com.py/articulos/la-antropologia-y-otras-ciencias-humanas-751943.html
+  </p>
+
+</section>
+
+<div style="text-align: center; margin: 40px 0;">
+  <button onclick="window.print()" style="background-color: var(--color-rojo); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 1em; cursor: pointer;">
+    Descargar como PDF
+  </button>
+
+ >
+</div>
+
+  <footer>
+    &copy; <strong>2025 Click al Conocimiento | Plataforma gráfica de Antropología Social</strong>
+  </footer>
+
+</body>
+</html>
+
+
+
